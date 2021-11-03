@@ -19,8 +19,10 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <form className="d-flex">
-                    <button className="btn btn-outline-primary mx-2" type="submit">SignIn</button>
-                    <button className="btn btn-outline-primary mx-2" type="submit">SignUp</button>
+                    <Link className="nav-link border border-primary active mx-2" aria-current="page" to="/signin">Sign In</Link>
+                    <Link className="nav-link border border-primary active mx-2" aria-current="page" to="/signup">Sign Up</Link>
+                    
+                    {/* <button className="btn btn-outline-primary mx-2" to="/signin" >SignUp</button> */}
                 </form>
                 </div>
             </div>
